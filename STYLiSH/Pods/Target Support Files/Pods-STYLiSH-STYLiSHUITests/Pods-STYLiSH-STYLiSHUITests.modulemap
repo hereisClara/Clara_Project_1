@@ -1,0 +1,6 @@
+framework module Pods_STYLiSH_STYLiSHUITests {
+  umbrella header "Pods-STYLiSH-STYLiSHUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
