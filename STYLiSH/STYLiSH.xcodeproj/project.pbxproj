@@ -14,9 +14,6 @@
 		AC2F1B9F2C4A3A210023CF73 /* TableViewOddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F1B9E2C4A3A210023CF73 /* TableViewOddCell.swift */; };
 		AC6463DD2C60A26200C2D52B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6463DC2C60A26200C2D52B /* Launch Screen.storyboard */; };
 		AC6463DF2C60A5C000C2D52B /* TPDirect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6463DE2C60A5C000C2D52B /* TPDirect.xcframework */; };
-		AC6464052C60C3EF00C2D52B /* CartItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */; };
-		AC6464082C60C45B00C2D52B /* CartItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */; };
-		AC6464092C60C45B00C2D52B /* CartItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */; };
 		AC64640B2C60E11E00C2D52B /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640A2C60E11E00C2D52B /* BillViewController.swift */; };
 		AC64640D2C61C3C700C2D52B /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640C2C61C3C700C2D52B /* LoginPageViewController.swift */; };
 		AC6464102C61C8D200C2D52B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640F2C61C8D200C2D52B /* TabBarController.swift */; };
@@ -26,6 +23,9 @@
 		AC9A07A92C64A49F003FC79B /* FacebookUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07A82C64A49F003FC79B /* FacebookUserData.swift */; };
 		AC9A07AB2C65C0B5003FC79B /* CheckOutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07AA2C65C0B5003FC79B /* CheckOutPageViewController.swift */; };
 		AC9A07AD2C65DDD2003FC79B /* CheckOutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07AC2C65DDD2003FC79B /* CheckOutData.swift */; };
+		AC9A07B72C69A359003FC79B /* CartItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07B52C69A359003FC79B /* CartItem.xcdatamodeld */; };
+		AC9A07B92C69A363003FC79B /* CartItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07B82C69A363003FC79B /* CartItem+CoreDataClass.swift */; };
+		AC9A07BB2C69A367003FC79B /* CartItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07BA2C69A367003FC79B /* CartItem+CoreDataProperties.swift */; };
 		ACB5339B2C479D6D00A69ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5339A2C479D6D00A69ADB /* AppDelegate.swift */; };
 		ACB5339D2C479D6D00A69ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5339C2C479D6D00A69ADB /* SceneDelegate.swift */; };
 		ACB5339F2C479D6D00A69ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5339E2C479D6D00A69ADB /* ViewController.swift */; };
@@ -92,9 +92,6 @@
 		AC6463DC2C60A26200C2D52B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AC6463DE2C60A5C000C2D52B /* TPDirect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TPDirect.xcframework; sourceTree = "<group>"; };
 		AC6463E02C60A5FD00C2D52B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartItem.xcdatamodel; sourceTree = "<group>"; };
-		AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AC64640A2C60E11E00C2D52B /* BillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
 		AC64640C2C61C3C700C2D52B /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		AC64640F2C61C8D200C2D52B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -104,6 +101,9 @@
 		AC9A07A82C64A49F003FC79B /* FacebookUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUserData.swift; sourceTree = "<group>"; };
 		AC9A07AA2C65C0B5003FC79B /* CheckOutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutPageViewController.swift; sourceTree = SOURCE_ROOT; };
 		AC9A07AC2C65DDD2003FC79B /* CheckOutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutData.swift; sourceTree = "<group>"; };
+		AC9A07B62C69A359003FC79B /* CartItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartItem.xcdatamodel; sourceTree = "<group>"; };
+		AC9A07B82C69A363003FC79B /* CartItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AC9A07BA2C69A367003FC79B /* CartItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		ACB533972C479D6D00A69ADB /* STYLiSH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STYLiSH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5339A2C479D6D00A69ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB5339C2C479D6D00A69ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -251,9 +251,9 @@
 				AC9A07AC2C65DDD2003FC79B /* CheckOutData.swift */,
 				AC9A07AA2C65C0B5003FC79B /* CheckOutPageViewController.swift */,
 				AC6464142C61F21600C2D52B /* STYLiSH.entitlements */,
-				AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */,
-				AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */,
-				AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */,
+				AC9A07BA2C69A367003FC79B /* CartItem+CoreDataProperties.swift */,
+				AC9A07B82C69A363003FC79B /* CartItem+CoreDataClass.swift */,
+				AC9A07B52C69A359003FC79B /* CartItem.xcdatamodeld */,
 				ACEC23B12C5CC04B006A9A30 /* CartItemModel.swift */,
 				ACEC24362C5F5159006A9A30 /* UIColor+Extension.swift */,
 				ACEC24342C5F5159006A9A30 /* UIImage+Extension.swift */,
@@ -623,6 +623,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9A07BB2C69A367003FC79B /* CartItem+CoreDataProperties.swift in Sources */,
+				AC9A07B92C69A363003FC79B /* CartItem+CoreDataClass.swift in Sources */,
+				AC9A07B72C69A359003FC79B /* CartItem.xcdatamodeld in Sources */,
 				ACDD1B5B2C5637EA00790497 /* DetailPageViewController.swift in Sources */,
 				AC9A07AB2C65C0B5003FC79B /* CheckOutPageViewController.swift in Sources */,
 				ACF5B3AE2C4CE47500FB1012 /* UserCollectionViewController.swift in Sources */,
@@ -630,7 +633,6 @@
 				AC6464182C61FC6A00C2D52B /* PresentationDelegate.swift in Sources */,
 				ACDD1B572C5637EA00790497 /* DetailPageShoppingButton.swift in Sources */,
 				ACEC244A2C5F52DF006A9A30 /* STPaymentInfoTableViewCell.swift in Sources */,
-				AC6464052C60C3EF00C2D52B /* CartItem.xcdatamodeld in Sources */,
 				ACDD1B592C5637EA00790497 /* DetailPageStoryCell.swift in Sources */,
 				ACF5B3B82C4E3D6300FB1012 /* StyleLookViewController.swift in Sources */,
 				ACEC24482C5F52DF006A9A30 /* STOrderUserInputCell.swift in Sources */,
@@ -654,8 +656,6 @@
 				ACDD1B5C2C5637EA00790497 /* StyleLookDataRequest.swift in Sources */,
 				ACB5339B2C479D6D00A69ADB /* AppDelegate.swift in Sources */,
 				ACEC24382C5F5159006A9A30 /* UIImage+Extension.swift in Sources */,
-				AC6464082C60C45B00C2D52B /* CartItem+CoreDataClass.swift in Sources */,
-				AC6464092C60C45B00C2D52B /* CartItem+CoreDataProperties.swift in Sources */,
 				ACDD1B5F2C573FA500790497 /* AddToCartPage.swift in Sources */,
 				AC64640B2C60E11E00C2D52B /* BillViewController.swift in Sources */,
 				AC9A07A92C64A49F003FC79B /* FacebookUserData.swift in Sources */,
@@ -1028,14 +1028,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */ = {
+		AC9A07B52C69A359003FC79B /* CartItem.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */,
+				AC9A07B62C69A359003FC79B /* CartItem.xcdatamodel */,
 			);
-			currentVersion = AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */;
+			currentVersion = AC9A07B62C69A359003FC79B /* CartItem.xcdatamodel */;
 			name = CartItem.xcdatamodeld;
-			path = "/Users/yen/iOS-Class-Tech-Academy/students/Clara/STYLiSH/STYLiSH/CartItem.xcdatamodeld";
+			path = "/Users/yen/Clara Project 1/STYLiSH/STYLiSH/CartItem.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
