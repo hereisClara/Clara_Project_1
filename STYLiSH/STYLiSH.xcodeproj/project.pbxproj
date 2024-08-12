@@ -14,13 +14,11 @@
 		AC2F1B9F2C4A3A210023CF73 /* TableViewOddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F1B9E2C4A3A210023CF73 /* TableViewOddCell.swift */; };
 		AC6463DD2C60A26200C2D52B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6463DC2C60A26200C2D52B /* Launch Screen.storyboard */; };
 		AC6463DF2C60A5C000C2D52B /* TPDirect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6463DE2C60A5C000C2D52B /* TPDirect.xcframework */; };
-		AC6464052C60C3EF00C2D52B /* CartItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */; };
 		AC6464082C60C45B00C2D52B /* CartItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */; };
 		AC6464092C60C45B00C2D52B /* CartItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */; };
 		AC64640B2C60E11E00C2D52B /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640A2C60E11E00C2D52B /* BillViewController.swift */; };
 		AC64640D2C61C3C700C2D52B /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640C2C61C3C700C2D52B /* LoginPageViewController.swift */; };
 		AC6464102C61C8D200C2D52B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64640F2C61C8D200C2D52B /* TabBarController.swift */; };
-		AC6464132C61EFC600C2D52B /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AC6464122C61EFC600C2D52B /* FacebookLogin */; };
 		AC6464162C61FB5E00C2D52B /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464152C61FB5E00C2D52B /* PresentationController.swift */; };
 		AC6464182C61FC6A00C2D52B /* PresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6464172C61FC6A00C2D52B /* PresentationDelegate.swift */; };
 		AC9A07A92C64A49F003FC79B /* FacebookUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A07A82C64A49F003FC79B /* FacebookUserData.swift */; };
@@ -35,6 +33,8 @@
 		ACB533BC2C479D6F00A69ADB /* STYLiSHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB533BB2C479D6F00A69ADB /* STYLiSHUITests.swift */; };
 		ACB533BE2C479D6F00A69ADB /* STYLiSHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB533BD2C479D6F00A69ADB /* STYLiSHUITestsLaunchTests.swift */; };
 		ACB533CB2C48B95E00A69ADB /* TableViewEvenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB533CA2C48B95E00A69ADB /* TableViewEvenCell.swift */; };
+		ACDB6F872C69CFC400ABEC04 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = ACDB6F862C69CFC400ABEC04 /* FacebookLogin */; };
+		ACDB6F8A2C69D0AD00ABEC04 /* CartItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACDB6F882C69D0AD00ABEC04 /* CartItem.xcdatamodeld */; };
 		ACDD1B572C5637EA00790497 /* DetailPageShoppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD1B502C5637EA00790497 /* DetailPageShoppingButton.swift */; };
 		ACDD1B582C5637EA00790497 /* DetailPageColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD1B512C5637EA00790497 /* DetailPageColorCell.swift */; };
 		ACDD1B592C5637EA00790497 /* DetailPageStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD1B522C5637EA00790497 /* DetailPageStoryCell.swift */; };
@@ -92,7 +92,6 @@
 		AC6463DC2C60A26200C2D52B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AC6463DE2C60A5C000C2D52B /* TPDirect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TPDirect.xcframework; sourceTree = "<group>"; };
 		AC6463E02C60A5FD00C2D52B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartItem.xcdatamodel; sourceTree = "<group>"; };
 		AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AC64640A2C60E11E00C2D52B /* BillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 		ACB533BB2C479D6F00A69ADB /* STYLiSHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STYLiSHUITests.swift; sourceTree = "<group>"; };
 		ACB533BD2C479D6F00A69ADB /* STYLiSHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STYLiSHUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ACB533CA2C48B95E00A69ADB /* TableViewEvenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEvenCell.swift; sourceTree = "<group>"; };
+		ACDB6F892C69D0AD00ABEC04 /* CartItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartItem.xcdatamodel; sourceTree = "<group>"; };
 		ACDD1B502C5637EA00790497 /* DetailPageShoppingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageShoppingButton.swift; sourceTree = "<group>"; };
 		ACDD1B512C5637EA00790497 /* DetailPageColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageColorCell.swift; sourceTree = "<group>"; };
 		ACDD1B522C5637EA00790497 /* DetailPageStoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageStoryCell.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 			files = (
 				AC6463DF2C60A5C000C2D52B /* TPDirect.xcframework in Frameworks */,
 				428DE0CCC905D43277E49905 /* Pods_STYLiSH.framework in Frameworks */,
-				AC6464132C61EFC600C2D52B /* FacebookLogin in Frameworks */,
+				ACDB6F872C69CFC400ABEC04 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,12 +248,12 @@
 		ACB533992C479D6D00A69ADB /* STYLiSH */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB6F882C69D0AD00ABEC04 /* CartItem.xcdatamodeld */,
 				AC9A07AC2C65DDD2003FC79B /* CheckOutData.swift */,
 				AC9A07AA2C65C0B5003FC79B /* CheckOutPageViewController.swift */,
 				AC6464142C61F21600C2D52B /* STYLiSH.entitlements */,
 				AC6464062C60C45B00C2D52B /* CartItem+CoreDataClass.swift */,
 				AC6464072C60C45B00C2D52B /* CartItem+CoreDataProperties.swift */,
-				AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */,
 				ACEC23B12C5CC04B006A9A30 /* CartItemModel.swift */,
 				ACEC24362C5F5159006A9A30 /* UIColor+Extension.swift */,
 				ACEC24342C5F5159006A9A30 /* UIImage+Extension.swift */,
@@ -393,7 +393,7 @@
 			);
 			name = STYLiSH;
 			packageProductDependencies = (
-				AC6464122C61EFC600C2D52B /* FacebookLogin */,
+				ACDB6F862C69CFC400ABEC04 /* FacebookLogin */,
 			);
 			productName = STYLiSH;
 			productReference = ACB533972C479D6D00A69ADB /* STYLiSH.app */;
@@ -471,7 +471,7 @@
 			);
 			mainGroup = ACB5338E2C479D6D00A69ADB;
 			packageReferences = (
-				AC6464112C61EFC600C2D52B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				ACDB6F852C69CFC400ABEC04 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = ACB533982C479D6D00A69ADB /* Products */;
 			projectDirPath = "";
@@ -630,7 +630,6 @@
 				AC6464182C61FC6A00C2D52B /* PresentationDelegate.swift in Sources */,
 				ACDD1B572C5637EA00790497 /* DetailPageShoppingButton.swift in Sources */,
 				ACEC244A2C5F52DF006A9A30 /* STPaymentInfoTableViewCell.swift in Sources */,
-				AC6464052C60C3EF00C2D52B /* CartItem.xcdatamodeld in Sources */,
 				ACDD1B592C5637EA00790497 /* DetailPageStoryCell.swift in Sources */,
 				ACF5B3B82C4E3D6300FB1012 /* StyleLookViewController.swift in Sources */,
 				ACEC24482C5F52DF006A9A30 /* STOrderUserInputCell.swift in Sources */,
@@ -646,6 +645,7 @@
 				AC64640D2C61C3C700C2D52B /* LoginPageViewController.swift in Sources */,
 				AC6464102C61C8D200C2D52B /* TabBarController.swift in Sources */,
 				ACEC23772C5B86A2006A9A30 /* CartViewController.swift in Sources */,
+				ACDB6F8A2C69D0AD00ABEC04 /* CartItem.xcdatamodeld in Sources */,
 				ACF5B3B02C4DFC8900FB1012 /* UserCollectionViewCell.swift in Sources */,
 				ACEC23B22C5CC04B006A9A30 /* CartItemModel.swift in Sources */,
 				ACEC23792C5C68A5006A9A30 /* CartItemTableViewCell.swift in Sources */,
@@ -1009,7 +1009,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AC6464112C61EFC600C2D52B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+		ACDB6F852C69CFC400ABEC04 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
@@ -1020,22 +1020,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC6464122C61EFC600C2D52B /* FacebookLogin */ = {
+		ACDB6F862C69CFC400ABEC04 /* FacebookLogin */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC6464112C61EFC600C2D52B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			package = ACDB6F852C69CFC400ABEC04 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		AC6464032C60C3EF00C2D52B /* CartItem.xcdatamodeld */ = {
+		ACDB6F882C69D0AD00ABEC04 /* CartItem.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */,
+				ACDB6F892C69D0AD00ABEC04 /* CartItem.xcdatamodel */,
 			);
-			currentVersion = AC6464042C60C3EF00C2D52B /* CartItem.xcdatamodel */;
+			currentVersion = ACDB6F892C69D0AD00ABEC04 /* CartItem.xcdatamodel */;
 			name = CartItem.xcdatamodeld;
-			path = "/Users/yen/iOS-Class-Tech-Academy/students/Clara/STYLiSH/STYLiSH/CartItem.xcdatamodeld";
+			path = "/Users/yen/Clara Project 1/STYLiSH/STYLiSH/CartItem.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
