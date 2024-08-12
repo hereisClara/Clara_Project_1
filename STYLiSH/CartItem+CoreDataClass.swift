@@ -1,8 +1,8 @@
 //
 //  CartItem+CoreDataClass.swift
-//  STYLiSH
+//  
 //
-//  Created by 小妍寶 on 2024/8/5.
+//  Created by shachar on 2024/8/12.
 //
 //
 
